@@ -15,6 +15,7 @@ export const App = () => {
         <span>CREATE</span>
         <br/>
         TECHNOLOGY
+        <Login />
       <Particles
         id="tsparticles"
         init={particlesInit}
