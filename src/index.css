@@ -1,12 +1,13 @@
-* {
+/* * {
   min-height: 100%;
-}
+} */
 
 body {
   margin: auto;
   padding: auto;
   overflow: hidden;
-  background-image: linear-gradient(to top right, #FAFAFA 35%, #E8F7F4, #C1C9ED, #D6B1F6 75%);
+  /* background-image: linear-gradient(to top right, #FAFAFA 35%, #E8F7F4, #C1C9ED, #D6B1F6 75%); */
+  background: linear-gradient(to top right, #FAFAFA 35%, #E8F7F4, #C1C9ED, #D6B1F6 75%) fixed;
   font-family: 'Rajdhani', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
