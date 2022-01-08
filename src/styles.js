@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MainDiv = styled.div`
+export const LoginPage = styled.div`
     text-align: center;
     justify-content: center;
     height: 100%;
