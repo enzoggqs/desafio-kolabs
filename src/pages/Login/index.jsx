@@ -1,5 +1,5 @@
 import { LoginContainer } from "../../styles"
-import logo from '../../assets/logo-removebg-preview (2).png';
+import logo from '../../assets/logo2.png';
 import { useState } from "react";
 
 export const Login = () => {
