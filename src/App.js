@@ -24,10 +24,6 @@ export const App = () => {
           fpsLimit: 30,
           interactivity: {
             events: {
-              onClick: {
-                enable: true,
-                mode: "push",
-              },
               onHover: {
                 enable: true,
                 mode: "grab",
@@ -52,10 +48,10 @@ export const App = () => {
           },
           particles: {
             color: {
-              value: "#111111",
+              value: "#FFFFFF",
             },
             links: {
-              color: "#111111",
+              color: "#FFFFFF",
               distance: 150,
               enable: true,
               opacity: 0.5,
