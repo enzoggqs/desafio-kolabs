@@ -11,6 +11,16 @@ body {
   font-family: 'Rajdhani', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* @media screen and (max-width: 600px) {
+    background: linear-gradient(to bottom, ##FDFBFF, #E5E5E5) fixed;
+  } */
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: linear-gradient(to bottom, #FDFBFF, #CDBAF4 45%) fixed;
+  }
 }
 
 code {

@@ -13,6 +13,19 @@ export const MainDiv = styled.div`
     font-size: 144px;
     
     font-weight: bold;
+
+    @media (max-width: 600px){
+        font-size: 64px;
+        line-height: 48px;
+
+        span {
+            font-size: 36px;
+        }
+
+        &:first-child {
+            margin-top: 20%;
+        }
+    }
 `
 
 export const LoginContainer = styled.div`
@@ -24,7 +37,7 @@ export const LoginContainer = styled.div`
     // background: white;
     border-radius: 15px;
     z-index: 1;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(8px);
     box-shadow: 0 0 10px #DFD1EB;
 
     font-size: 30px;
@@ -84,7 +97,12 @@ export const LoginContainer = styled.div`
         font-size: 14px;
         cursor: pointer;
         color: #FFFFFF;
-        background-image: linear-gradient(#D2C6E4, #F0ECF7);
+    }
+
+    @media (min-width: 600px){
+        button {
+            background-image: linear-gradient(#D2C6E4, #F0ECF7);
+        }
     }
 
     button:hover {
@@ -96,5 +114,37 @@ export const LoginContainer = styled.div`
         letter-spacing: 1.5px;
         line-height: 16px;
         color: #660099;
+    }
+
+    @media (max-width: 600px){
+        border: 0.1px solid #FFFFFF;
+
+        h1 {
+            color: #9966CC;
+            text-shadow: 1px 1px 10px #9966CC;
+        }
+
+        form * {
+            margin-bottom: -5%;
+        }
+
+        form span {
+            display: none;
+        }
+
+        form label {
+            margin-bottom: -7%;
+            color: #9966CC;
+        }
+
+        form input {
+            margin-bottom: 5%;
+        }
+
+        form button {
+            margin-top: 7%;
+            background-color: #CEBAF5;
+            box-shadow: 0px 5px 15px #D9D9D9;
+        }
     }
 `
