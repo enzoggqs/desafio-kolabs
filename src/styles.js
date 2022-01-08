@@ -34,7 +34,6 @@ export const LoginContainer = styled.div`
     width: 264px;
     height: 400px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.1) 100%);
-    // background: white;
     border-radius: 15px;
     z-index: 1;
     backdrop-filter: blur(8px);
